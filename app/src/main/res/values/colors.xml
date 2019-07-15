@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fd3a81</color>
+    <color name="colorPrimaryDark">#e7eceb</color>
+    <color name="colorAccent">#e6246b</color>
+    <color name="backgroundcol">#ffffff</color>
+    <color name="level_button_before">#85b5ca</color>
+    <color name="level_button_after">#90ce92</color>
+    <color name="false_answer">#de1215</color>
+    <color name="true_answer">#30af34</color>
+</resources>

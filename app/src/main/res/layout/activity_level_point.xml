@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".LevelPoint">
+
+    <TextView
+        android:id="@+id/levelnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:text="LEVEL NUMBER"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/levelpointtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="134dp"
+        android:text="LEVELPOINT"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/scoreimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="132dp"/>
+
+    <Button
+        android:id="@+id/levelspage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="14dp"
+        android:textSize="20sp"
+        android:background="@color/colorAccent"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:text="Levels List" />
+</RelativeLayout>
